@@ -1,0 +1,9 @@
+.image1.proportioned {
+    height: auto;
+    width: 300px;
+  }
+  
+  .image1.distorted {
+    height: 400px;
+    width: 200px;
+  }

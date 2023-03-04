@@ -1,0 +1,30 @@
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+.header_paragraph{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.header_paragraph2{
+    font-weight: 1000;
+}
+.confirmationButton{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+.cancelButton{
+    font-size: 20px;
+}
+.firstDiv{
+    font-size: 25px;
+    font-weight: 100;
+}
+.secondDiv{
+    font-size: 25px;
+    font-weight: 100;
+}
+.childDiv{
+    font-size: 15px;
+    font-weight: 1000;
+}

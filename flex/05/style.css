@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: rgba(141, 137, 137, 0.815);    
+}
+body>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.main-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    box-shadow:0 5px 10px 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+.confirmation-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.close-sign{
+    display: flex;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(141, 137, 137, 0.815); 
+}
+.exclamation{
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 18px;
+  font-weight: 700;
+}
+.exclamation-mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(205, 226, 255);
+    font-size: 26px;
+    font-weight: 700;
+    color: blue;
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+
+.card-discription{
+    width: 400px;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+button{
+    
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.continue{
+    background-color: rgb(53, 94, 255);
+    margin-left: 50px;
+    color: white;
+    border: none;
+}
+.cancel{
+    color: rgb(53, 94, 255);;
+    background-color: white;
+    border: 2px solid rgba(221, 220, 220, 0.815);
+}
